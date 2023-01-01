@@ -1,0 +1,70 @@
+.meme-generator {
+    font-family: "Roboto", Impact;
+    text-align: center;
+}
+
+.signature {
+    font-family: "Roboto", Impact;
+    text-align: center;
+    font-size: 3vh;
+    color: #FFFBF2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url(C:\Users\Allan\OneDrive\Skrivbord\meme_website\background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100vh;
+}
+
+.meme-generator img {
+    height: 60vh;
+    object-fit: cover;
+    padding: 24px 0;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.generate-meme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", Impact;
+}
+
+.meme-title {
+    font-size: 3vw;
+    color: #FFFBF2;
+}
+
+.meme-generator .generate-meme-btn {
+    text-align: center;
+    padding: 8px 20px;
+    border: none;
+    border-left: 2vw solid #187137;
+    border-right: 2vw solid #187137;
+    margin: 1vh auto;
+    font-size: 8vh;
+    color: #222;
+    background: #FFFBF2;
+    cursor: pointer;
+    transition: all 400ms ease;
+    width: 66vh;
+    height: 6vw;
+}
+
+.meme-generator .generate-meme-btn:hover {
+    padding: 8px 36;
+    border-left: 3vw solid #187137;
+    border-right: 3vw solid #187137;
+    letter-spacing: 0.4vw;
+    width: 79vh;
+    
+}
